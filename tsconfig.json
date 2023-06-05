@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "module": "ES2022",
+    "target": "ES2022",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+  },
+  "files": [
+    "src/index.ts"
+  ],
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
