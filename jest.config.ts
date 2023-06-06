@@ -7,6 +7,7 @@ export default {
   preset: "ts-jest",
   moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths, {
     useESM: true,
+    prefix: "../../"
   }),
 
 } as JestConfigWithTsJest
