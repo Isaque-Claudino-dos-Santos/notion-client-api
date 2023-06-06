@@ -9,6 +9,11 @@
     "strict": true,
     "allowJs": true,
     "resolveJsonModule": true,
+    "paths": {
+      "@Config/*": [
+        "./src/config/*"
+      ]
+    }
   },
   "files": [
     "src/index.ts"
