@@ -13,7 +13,8 @@ const env = load({
     NOTION_KEY: String,
     NOTION_DATABASE_KEY: String,
     APP_HOST: String,
-    APP_PORT: Number
+    APP_PORT: Number,
+    NODE_ENV: String
 })
 
 
