@@ -1,2 +1,2 @@
-import Server from "../../src/Services/Server";
+import Server from "@Services/Server";
 const server = new Server()
