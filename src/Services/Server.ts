@@ -15,7 +15,6 @@ export default class Server implements InterfaceServer {
     listen(): void {
         this.app.listen(this.PORT, this.HOST, () => {
             console.log(`Open Server in ${this.fullURL()}`);
-
         })
     }
 }
